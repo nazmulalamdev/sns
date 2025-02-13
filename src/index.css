@@ -1,0 +1,196 @@
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.head-title {
+  text-align: center;
+}
+
+.head-title h5 {
+  font-size: 20px;
+  color: #289BDE;
+}
+
+.head-title h2 {
+  font-size: 40px;
+  color: #071B27;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.head-title p {
+  font-size: 20px;
+  color: #666666;
+  max-width: 613px;
+  margin: 0 auto;
+}
+
+/* All Common CSS End */
+
+/* Navbar Start */
+nav {
+  position: absolute;
+  width: 100%;
+  top: 13px;
+  z-index: 999;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  column-gap: 30px;
+  font-size: 16px;
+
+}
+
+.menu ul li a {
+  color: #fff;
+  transition: all linear .3s;
+}
+
+.menu ul li a:hover {
+  color: #289BDE;
+}
+
+.nav-btn-lang {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #fff;
+  font-size: 14px;
+  color: #fff;
+}
+
+.nav-btn-get {
+  padding: 8px 45px;
+  border-radius: 5px;
+  background: #289BDE;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 18px;
+}
+
+/* Navbar End */
+
+/* Banner Part Start */
+#banner {
+  padding-top: 277px;
+  padding-bottom: 350px;
+  background: #071B27;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.banner-content img {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-content p {
+  font-size: 30px;
+}
+
+.banner-content h1 {
+  font-size: 70px;
+  max-width: 1117px;
+  margin: 0 auto;
+  margin-top: 2px;
+  margin-bottom: 40px;
+}
+
+.banner-content .banner-btn {
+  padding: 19px 29px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 12px;
+  transition: all linear .3s;
+}
+
+.banner-content .banner-btn:hover {
+  background: #289BDE;
+  border: 1px solid #289BDE;
+}
+
+/* Banner Part End */
+
+/* Outer Image Part Start */
+.outer-img {
+  position: relative;
+  transform: translateY(-43%);
+}
+
+.outer-img img {
+  width: 100%;
+}
+
+/* Outer Image Part End */
