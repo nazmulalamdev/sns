@@ -5,15 +5,15 @@ function Navbar() {
     return (
         <>
             <nav>
-                <div class="container">
-                    <div class="nav-item">
-                        <div class="logo">
+                <div className="container">
+                    <div className="nav-item">
+                        <div className="logo">
                             <a href="#">
                                 <img src="images/logo.png" alt="Logo" />
                             </a>
                         </div>
-                        <div class="menu">
-                            <ul class="poppins-medium">
+                        <div className="menu">
+                            <ul className="poppins-medium">
                                 <li>
                                     <a href="#">Home</a>
                                 </li>
@@ -34,9 +34,9 @@ function Navbar() {
                                 </li>
                             </ul>
                         </div>
-                        <div class="nav-btn">
-                            <Button type={"button"} style={"nav-btn-lang poppins-regular"} content={"Japanese"}/>
-                            <Button type={"button"} style={"nav-btn-get poppins-medium"} content={"Get Start"}/>
+                        <div className="nav-btn">
+                            <Button href={"#"} style={"nav-btn-lang poppins-regular"} content={"Japanese"}/>
+                            <Button href={"#"} style={"nav-btn-get poppins-medium"} content={"Get Start"}/>
                         </div>
                     </div>
                 </div>
